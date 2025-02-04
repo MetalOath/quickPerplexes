@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Perplexes",
+  "version": "1.0",
+  "description": "Adds a context menu item to search highlighted text using Perplexity AI.",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  }
+}
